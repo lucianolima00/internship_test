@@ -2,22 +2,25 @@
 # Sala de Aula
 ###
 
-Desenvolver um sistema de sala de aula, onde terá o acesso do aluno e o acesso do professor, o professor podera criar uma sala, que ira gerar um codigo de acesso, alem disso o professor podera escrever mensagens que sera mostrado na tela tanto do aluno, quanto do professor (apenas as 3 ultimas mensagens), o aluno pode acessar a sala do professor utilizando o codigo de acesso.
-
-### Fazer o sistema utilizando Yii2, não é necessário fazer um FrontEnd complexo. Não realizar cadastro do professor nem do aluno, apenas das salas e das mensagens. Não é necessário fazer sistema de login.
+Desenvolver um sistema de sala de aula, o sistema terá o acesso do aluno e o acesso do professor, sendo que o acesso do professor poderá criar várias  matérias e dentro de cada matéria pode ser criado varios conteúdos de estudo, todos os conteúdos serão apenas um texto e o acesso do aluno poderá acessar a matéria do professor utilizando um codigo de acesso da sala e criar comentários nos conteúdos criados.
+#
+- Fazer o sistema de preferência com Yii2 e MySQL.
+- Não é necessário fazer um FrontEnd complexo.
+- A conclusão do sistema não é requisito para a vaga, faça o que conseguir no prazo informado.
 #
 
-O Professor terá as seguintes funcionalidades:
-- Criar/Excluir a sala
-- Criar/Editar/Excluir mensagens na sala
-- Alterar o código da sala (Utilizar codigo aleatório)
+O professor terá as seguintes funcionalidades:
+- Criar/Visualizar/Editar/Excluir matérias
+- Criar/Visualizar/Editar/Excluir conteúdos
+- Criar/Editar/Excluir comentários
 
 O aluno terá as seguintes funcionalidades:
-- Entrar/Sair da sala
+- Entrar/Sair da matérias
+- Visualizar conteúdos
+- Criar/Editar/Excluir comentários
 
 O sistema deve conter:
 - API
-- Modulos
+- Modulos (Aluno e Professor)
 - Teste unitário
-
-O sistema deve ser enviado para o GitHub, deve ser criado um repositorio no perfil e os commits devem ser feitos em uma branch separada da main
+- Versionamento
